@@ -1,7 +1,5 @@
-export default function Home() {
-  return (
-    <div>
-      ...
-    </div>
-  )
+import Home from './Home';
+
+export default function AppHome() {
+  return <Home />
 }
