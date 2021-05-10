@@ -48,7 +48,12 @@
   height: 100%;
 }
 
-.selectedChampionImage {
+.selectedChampionImageLeft {
   width: 100%;
   border: 2px solid #fff;
+}
+
+.selectedChampionImageRight {
+  width: 100%;
+  border: 2px solid #ff6384;
 }
