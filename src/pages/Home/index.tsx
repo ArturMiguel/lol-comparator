@@ -5,7 +5,8 @@ import { useEffect, useState } from 'react';
 import { Radar, Chart } from 'react-chartjs-2';
 
 Chart.defaults.color = '#fff'
-Chart.defaults.scale.grid.display = false;
+Chart.defaults.scale.grid.display = true;
+Chart.defaults.scale.grid.color = '#4f3a2d';
 Chart.defaults.scale.ticks.display = true;
 Chart.defaults.scale.ticks.backdropColor = 'none';
 Chart.defaults.responsive = true;
